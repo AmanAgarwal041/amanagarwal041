@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout 🛎️
       # https://github.com/actions/checkout
       - uses: actions/checkout@v3
         
@@ -23,16 +24,15 @@ jobs:
           node-version: 18.17
           cache: npm
 
-      - name: Build
+      - name: Build 🔧
         run: |
           npm ci
           npm run build
           npm run export
           touch build/.build
 
-      - name: Deploy
+      - name: Deploy 🚀
         # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@4.4.0
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: build
