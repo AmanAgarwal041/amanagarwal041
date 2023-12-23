@@ -29,8 +29,6 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm run export
-          touch build/.build
 
       - name: Deploy 🚀
         # https://github.com/JamesIves/github-pages-deploy-action
