@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aman Agarwal 🚀
 
-## Getting Started
+📍 Noida, U.P., India  
+📞 9910693604  
+📧 agarwal.aman041@gmail.com
 
-First, run the development server:
+Passionate Senior Frontend Engineer 🌐 | Open Source Contributor 🛠️ | Code Enthusiast 💻
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Experience
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Senior Frontend Engineer, Appsmith
+*Oct 2021 - Present*  
+- 🚀 Contributed to open source, implemented GraphQL API connectors.
+- 🌈 Introduced module sharing logic, enhancing computation efficiency.
+- 🚀 Improved user onboarding with feature walkthroughs, increasing engagement by 3%.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Staff Engineer, Gradeup (Now: Byju’s Exam Prep)
+*Oct 2016 - Oct 2021*  
+- 🌐 Created an Online Teaching Platform with HTML Canvas, WebRTC, Janus.
+- 🚀 Developed Goprep website using NextJS, Apollo GraphQL, and Camera Web APIs.
+- 👨‍💻 Led a team working on NextJS, NodeJS, GraphQL, managing multiple products.
+- 🚀 Optimized Gradeup website, achieving high Page Speed Insights scores.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Software Engineer, Limetray
+*May 2016 - Oct 2016*  
+- 💼 Revamped UI of Food Ordering POS Desktop Application using Electron, Sass, AngularJS.
+- 🛠️ Developed backend APIs for internal products using Laravel Framework.
 
-## Learn More
+### Software Engineer, Newgen Software Pvt. Ltd.
+*July 2015 - May 2016*  
+- 👨‍💻 Worked on an application using jQuery, MxClient for product flows.
+- 🛠️ Implemented APIs based on MongoDB and NodeJS for an IoT project.
 
-To learn more about Next.js, take a look at the following resources:
+## Skills
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- HTML, CSS, JavaScript
+- React, Redux, Redux-Saga, NextJS
+- GraphQL, NodeJS, Webpack, Babel
+- SEO, Website Optimizations, Google Tag Manager, AMP
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Open Source Contributions
 
-## Deploy on Vercel
+- [Google One Tap 2.0](#)
+- [React Flow Player](#)
+- [Med URL](#)
+- [Google Tag Manager Function](#)
+- [Front End App Architecture](#)
+- [Website Optimizations](#)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Important Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [GitHub](#)
+- [LinkedIn](#)
+- [Medium](#)
+- [NPM](#)
+
+## Education
+
+**B. Tech in Computer Science Engineering**  
+JSS Academy Of Technical Education (Noida) | *Aug 2011 - June 2015*
+
+**Senior Secondary School**  
+St. Aloysius’ High School (Kanpur) | *May 2011*
