@@ -1,42 +1,50 @@
-# Aman Agarwal 🚀
+# Hi there! 👋 I'm Aman Agarwal
 
-📍 Noida, U.P., India  
-📞 9910693604  
-📧 agarwal.aman041@gmail.com
+Passionate about crafting seamless user experiences and overcoming coding challenges. Let's build something amazing together! 🚀
 
-Passionate Senior Frontend Engineer 🌐 | Open Source Contributor 🛠️ | Code Enthusiast 💻
+📍 Noida, U.P., India | 📞 9910693604 | 📧 agarwal.aman041@gmail.com
 
-## Experience
+## 👨‍💻 Experience
 
-### Senior Frontend Engineer, Appsmith
-*Oct 2021 - Present*  
-- 🚀 Contributed to open source, implemented GraphQL API connectors.
-- 🌈 Introduced module sharing logic, enhancing computation efficiency.
-- 🚀 Improved user onboarding with feature walkthroughs, increasing engagement by 3%.
+### Senior Frontend Engineer @ Appsmith
+*Oct '21 - Present*
+- 🌐 Contributed to open source, making GraphQL a top 10 integration.
+- 🚀 Implemented module sharing logic, enhancing computation efficiency.
+- 🌈 Improved user engagement by 3% through feature walkthroughs.
 
-### Staff Engineer, Gradeup (Now: Byju’s Exam Prep)
-*Oct 2016 - Oct 2021*  
+### Staff Engineer @ Gradeup (Now: Byju’s Exam Prep)
+*Oct '16 - Oct '21*
 - 🌐 Created an Online Teaching Platform with HTML Canvas, WebRTC, Janus.
 - 🚀 Developed Goprep website using NextJS, Apollo GraphQL, and Camera Web APIs.
-- 👨‍💻 Led a team working on NextJS, NodeJS, GraphQL, managing multiple products.
+- 👨‍💻 Led a team managing multiple products in NextJS, NodeJS, GraphQL.
 - 🚀 Optimized Gradeup website, achieving high Page Speed Insights scores.
 
-### Software Engineer, Limetray
-*May 2016 - Oct 2016*  
-- 💼 Revamped UI of Food Ordering POS Desktop Application using Electron, Sass, AngularJS.
-- 🛠️ Developed backend APIs for internal products using Laravel Framework.
+### Software Engineer @ Limetray
+*May '16 - Oct '16*
+- 💼 Revamped UI of Food Ordering POS Desktop App using Electron, Sass, AngularJS.
+- 🛠️ Developed backend APIs with Laravel Framework.
 
-### Software Engineer, Newgen Software Pvt. Ltd.
-*July 2015 - May 2016*  
+### Software Engineer @ Newgen Software Pvt. Ltd.
+*Jul '15 - May '16*
 - 👨‍💻 Worked on an application using jQuery, MxClient for product flows.
 - 🛠️ Implemented APIs based on MongoDB and NodeJS for an IoT project.
 
-## Skills
+## 🚀 Skills
 
-- HTML, CSS, JavaScript
-- React, Redux, Redux-Saga, NextJS
-- GraphQL, NodeJS, Webpack, Babel
-- SEO, Website Optimizations, Google Tag Manager, AMP
+HTML ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=html5&logoColor=white)
+CSS ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=css3&logoColor=white)
+JavaScript ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white)
+React ![React](https://img.shields.io/badge/-React-blue?style=flat-square&logo=react&logoColor=white)
+Redux ![Redux](https://img.shields.io/badge/-Redux-purple?style=flat-square&logo=redux&logoColor=white)
+NextJS ![NextJS](https://img.shields.io/badge/-NextJS-black?style=flat-square&logo=next.js&logoColor=white)
+GraphQL ![GraphQL](https://img.shields.io/badge/-GraphQL-pink?style=flat-square&logo=graphql&logoColor=white)
+NodeJS ![NodeJS](https://img.shields.io/badge/-NodeJS-green?style=flat-square&logo=node.js&logoColor=white)
+Webpack ![Webpack](https://img.shields.io/badge/-Webpack-blueviolet?style=flat-square&logo=webpack&logoColor=white)
+Babel ![Babel](https://img.shields.io/badge/-Babel-yellow?style=flat-square&logo=babel&logoColor=white)
+SEO ![SEO](https://img.shields.io/badge/-SEO-green?style=flat-square&logo=google&logoColor=white)
+Google Tag Manager ![Google Tag Manager](https://img.shields.io/badge/-Google%20Tag%20Manager-blue?style=flat-square&logo=google-tag-manager&logoColor=white)
+AMP ![AMP](https://img.shields.io/badge/-AMP-lightgrey?style=flat-square&logo=amp&logoColor=white)
+
 
 ## Open Source Contributions
 
@@ -55,10 +63,14 @@ Passionate Senior Frontend Engineer 🌐 | Open Source Contributor 🛠️ | Cod
 - [Medium](https://medium.com/@amanagarwal_99464)
 - [NPM](https://www.npmjs.com/~typeofnull)
 
-## Education
+## 📚 Education
 
 **B. Tech in Computer Science Engineering**  
-JSS Academy Of Technical Education (Noida) | *Aug 2011 - June 2015*
+JSS Academy Of Technical Education (Noida) | *Aug '11 - Jun '15*
 
 **Senior Secondary School**  
-St. Aloysius’ High School (Kanpur) | *May 2011*
+St. Aloysius’ High School (Kanpur) | *May '11*
+
+## 🌟 Let's Connect!
+
+Feel free to explore my [Live Portfolio](https://amanagarwal041.vercel.app/) and delve into the code! 💻✨
