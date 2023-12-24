@@ -40,19 +40,20 @@ Passionate Senior Frontend Engineer 🌐 | Open Source Contributor 🛠️ | Cod
 
 ## Open Source Contributions
 
-- [Google One Tap 2.0](#)
-- [React Flow Player](#)
-- [Med URL](#)
-- [Google Tag Manager Function](#)
-- [Front End App Architecture](#)
-- [Website Optimizations](#)
+- [Google One Tap 2.0](https://github.com/gradeup/google-one-tap-2.0)
+- [React Flow Player](https://www.npmjs.com/package/react-flow-player)
+- [Med URL](https://www.npmjs.com/package/@gradeup/med-url)
+- [Google Tag Manager Function](https://www.npmjs.com/package/google-tag-manager-fn)
+- [Front End App Architecture](https://medium.com/gradeup/project-architecture-for-front-end-applications-5db31abb63c2)
+- [Website Optimizations](https://medium.com/@amanagarwal_99464/website-optimisations-fa48ef3f6130)
 
 ## Important Links
 
-- [GitHub](#)
-- [LinkedIn](#)
-- [Medium](#)
-- [NPM](#)
+- [Portfolio](https://amanagarwal041.vercel.app/)
+- [GitHub](https://github.com/AmanAgarwal041/)
+- [LinkedIn](https://www.linkedin.com/in/amanagarwal041/)
+- [Medium](https://medium.com/@amanagarwal_99464)
+- [NPM](https://www.npmjs.com/~typeofnull)
 
 ## Education
 
