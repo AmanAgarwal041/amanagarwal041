@@ -29,6 +29,4 @@ Passionate about crafting seamless user experiences and overcoming coding challe
 
 ## 🌟 Let's Connect!
 
-Feel free to explore my [Live Portfolio](https://amanagarwal041.vercel.app/) and delve into the code! 💻✨
-
 ![Aman's GitHub stats](https://github-readme-stats.vercel.app/api?username=amanagarwal041&show_icons=true&theme=dark&show=prs_merged_percentage&hide=contribs&rank_icon=github&custom_title=Stats)
