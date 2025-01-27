@@ -3,7 +3,7 @@
 
 Passionate about crafting seamless user experiences and overcoming coding challenges. Let's build something amazing together! 🚀
 
-📍 Noida, U.P., India | 📞 9910693604 | 📧 agarwal.aman041@gmail.com | 🕸️ amanagarwal041.github.io
+📍 Noida, U.P., India | 📞 9910693604 | 📧 agarwal.aman041@gmail.com | 🕸️ [amanagarwal041.github.io](amanagarwal041.github.io)
 
 ## 🚀 Skills
 
