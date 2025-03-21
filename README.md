@@ -1,5 +1,5 @@
 # Hi there! 👋 I'm Aman Agarwal
-[![Portfolio](https://img.shields.io/badge/portfolio-028090?logo=githubsponsors)](https://amanagarwal041.vercel.app/) [![Github](https://img.shields.io/badge/github-black?logo=github)](https://github.com/AmanAgarwal041) [![Linkedin](https://img.shields.io/badge/linkedin-0b66c2?logo=linkedin)](https://www.linkedin.com/in/amanagarwal041/) [![Medium](https://img.shields.io/badge/medium-black?logo=medium)](https://medium.com/@amanagarwal_99464) [![Linkedin](https://img.shields.io/badge/npm-EC4E20?logo=npm)](https://www.npmjs.com/~typeofnull)
+[![Portfolio](https://img.shields.io/badge/portfolio-028090?logo=githubsponsors)](https://amanagarwal041.github.io) [![Github](https://img.shields.io/badge/github-black?logo=github)](https://github.com/AmanAgarwal041) [![Linkedin](https://img.shields.io/badge/linkedin-0b66c2?logo=linkedin)](https://www.linkedin.com/in/amanagarwal041/) [![Medium](https://img.shields.io/badge/medium-black?logo=medium)](https://medium.com/@amanagarwal_99464) [![Linkedin](https://img.shields.io/badge/npm-EC4E20?logo=npm)](https://www.npmjs.com/~typeofnull)
 
 Passionate about crafting seamless user experiences and overcoming coding challenges. Let's build something amazing together! 🚀
 
