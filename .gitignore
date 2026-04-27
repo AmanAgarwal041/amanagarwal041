@@ -1,2 +1,26 @@
-.next
-node_modules
+# Next.js
+.next/
+out/
+.vercel/
+.cloudflare/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
