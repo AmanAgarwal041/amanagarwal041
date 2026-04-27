@@ -65,14 +65,20 @@ npx wrangler login
 npm run deploy
 ```
 
-Or with a CI token:
+Or via CI with a token:
 
 ```bash
 CLOUDFLARE_API_TOKEN=<token> npm run deploy
 ```
 
-The `out/` directory (~1.8 MB) is uploaded to Cloudflare Pages as a static site.
+The `[assets]` block in `wrangler.toml` points Wrangler at the `out/` directory.
 Get a token at [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens) → **Edit Cloudflare Workers** template.
+
+**Cloudflare Pages CI (GitHub integration):**
+- Build command: `npm run build`
+- Build output directory: `out`
+- Deploy command: `npx wrangler deploy`
+- Environment variable: `CLOUDFLARE_API_TOKEN`
 
 ---
 

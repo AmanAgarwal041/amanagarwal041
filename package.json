@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && wrangler pages deploy out --project-name aman-portfolio"
+    "deploy": "next build && wrangler deploy"
   },
   "dependencies": {
     "next": "15.1.0",
