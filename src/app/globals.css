@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #020209;
+  --surface: #0d0d1a;
+  --border: rgba(255, 255, 255, 0.06);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--canvas);
+  color: #f8fafc;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+@media (pointer: coarse), (hover: none) {
+  body { cursor: auto; }
+  .cur-orb, .cur-dot { display: none !important; }
+}
+
+/* ─── Scrollbar ──────────────────────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--canvas); }
+::-webkit-scrollbar-thumb { background: rgba(249, 115, 22, 0.5); border-radius: 2px; }
+
+/* ─── Cursor ─────────────────────────────────────────── */
+.cur-dot {
+  position: fixed;
+  top: 0; left: 0;
+  width: 5px; height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 10000;
+  will-change: transform;
+}
+
+.cur-orb {
+  position: fixed;
+  top: 0; left: 0;
+  width: 48px; height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 9999;
+  will-change: transform;
+  transition: width 0.45s cubic-bezier(0.23, 1, 0.32, 1),
+              height 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.cur-orb.hovered { width: 80px; height: 80px; }
+.cur-orb.clicking { width: 32px; height: 32px; }
+
+/* ─── Dot Grid ───────────────────────────────────────── */
+.dot-grid {
+  background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ─── Gradient Text ──────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(120deg, #f97316 0%, #fb923c 40%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ─── Glass ──────────────────────────────────────────── */
+.glass {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.07);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ─── Aurora ─────────────────────────────────────────── */
+.aurora {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  pointer-events: none;
+}
+.aurora-purple {
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(249,115,22,0.3) 0%, transparent 70%);
+  top: -200px; left: -200px;
+  animation: af 28s ease-in-out infinite;
+}
+.aurora-cyan {
+  width: 560px; height: 560px;
+  background: radial-gradient(circle, rgba(34,211,238,0.18) 0%, transparent 70%);
+  bottom: -120px; right: -120px;
+  animation: af 22s ease-in-out infinite reverse;
+}
+.aurora-green {
+  width: 460px; height: 460px;
+  background: radial-gradient(circle, rgba(52,211,153,0.13) 0%, transparent 70%);
+  top: 38%; left: 55%;
+  animation: af 30s ease-in-out infinite;
+  animation-delay: -12s;
+}
+@keyframes af {
+  0%,100% { transform: translate(0,0) scale(1); }
+  25%      { transform: translate(50px,-60px) scale(1.08); }
+  50%      { transform: translate(-40px,50px) scale(0.92); }
+  75%      { transform: translate(60px,40px) scale(1.06); }
+}
+
+/* ─── Section Label ──────────────────────────────────── */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #f97316;
+}
+.section-label::before {
+  content: "";
+  display: block;
+  width: 22px; height: 1px;
+  background: #f97316;
+}
+
+/* ─── Ping slow ──────────────────────────────────────── */
+@keyframes ping-slow {
+  0%        { transform: scale(1); opacity: 0.8; }
+  70%,100%  { transform: scale(2.2); opacity: 0; }
+}
+.animate-ping-slow { animation: ping-slow 2.2s ease-out infinite; }
+
+/* ─── Marquee ────────────────────────────────────────── */
+@keyframes mq  { from { transform: translateX(0); }    to { transform: translateX(-50%); } }
+@keyframes mqr { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+.animate-mq  { animation: mq  32s linear infinite; display:flex; width:max-content; }
+.animate-mqr { animation: mqr 28s linear infinite; display:flex; width:max-content; }
+.animate-mq3 { animation: mq  24s linear infinite; display:flex; width:max-content; }
+
+/* ─── 3D scene mask ──────────────────────────────────── */
+.scene-mask {
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, white 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, white 30%, transparent 80%);
+}
