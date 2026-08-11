@@ -32,7 +32,7 @@ Before pivoting into AI, I spent years crafting high-performance web platforms �
 | 🛡 [Transilience AI](https://github.com/transilienceai) | 🔭 [OpenLIT](https://github.com/openlit/openlit) |
 |---|---|
 | Full-stack AI security platform with autonomous agents for pentesting, CSPM, compliance, and policy automation. Engineered a dynamic TSX component generation system producing interactive, context-aware UIs at runtime. | Open-source AI Engineering platform — OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, and Evaluations supporting **50+ LLM providers**. |
-| `Principal Software Engineer · May 2025 – Present` | `Co-founder · 2024 – Present · 2.4k+ ⭐` |
+| `Principal Software Engineer · May 2025 – Present` | `Co-founder · 2024 – Present · 2.7k+ ⭐` |
 
 ---
 
