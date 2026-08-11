@@ -87,9 +87,9 @@ Before pivoting into AI, I spent years crafting high-performance web platforms â
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=AmanAgarwal041&show_icons=true&hide_border=true&bg_color=020209&title_color=f97316&icon_color=22d3ee&text_color=cbd5e1&ring_color=f97316" />
+<!-- <img height="160" src="https://github-readme-stats.vercel.app/api?username=AmanAgarwal041&show_icons=true&hide_border=true&bg_color=020209&title_color=f97316&icon_color=22d3ee&text_color=cbd5e1&ring_color=f97316" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanAgarwal041&layout=compact&hide_border=true&bg_color=020209&title_color=f97316&text_color=cbd5e1&langs_count=6" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanAgarwal041&layout=compact&hide_border=true&bg_color=020209&title_color=f97316&text_color=cbd5e1&langs_count=6" /> -->
 
 <br/><br/>
 
