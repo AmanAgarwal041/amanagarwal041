@@ -12,7 +12,7 @@ const testimonials = [
   {
     text: "Aman has great coding abilities with exceptional problem solving skills. He catches up with things really fast — a very good learner. Overall, Aman is the kind of software engineer every company loves to have.",
     name: "Sarvagya Mishra",
-    title: "Engineering Lead, Gradeup",
+    title: "Director at Pinnacleworks Infotech",
     href: "https://www.linkedin.com/in/sarvagyamishra",
   },
 ];

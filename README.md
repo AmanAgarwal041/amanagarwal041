@@ -32,7 +32,7 @@ Before pivoting into AI, I spent years crafting high-performance web platforms �
 | 🛡 [Transilience AI](https://github.com/transilienceai) | 🔭 [OpenLIT](https://github.com/openlit/openlit) |
 |---|---|
 | Full-stack AI security platform with autonomous agents for pentesting, CSPM, compliance, and policy automation. Engineered a dynamic TSX component generation system producing interactive, context-aware UIs at runtime. | Open-source AI Engineering platform — OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, and Evaluations supporting **50+ LLM providers**. |
-| `Principal Software Engineer · May 2025 – Present` | `Co-founder · 2024 – Present · 2.4k+ ⭐` |
+| `Principal Software Engineer · May 2025 – Present` | `Co-founder · 2024 – Present · 2.7k+ ⭐` |
 
 ---
 
@@ -87,9 +87,9 @@ Before pivoting into AI, I spent years crafting high-performance web platforms �
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=AmanAgarwal041&show_icons=true&hide_border=true&bg_color=020209&title_color=f97316&icon_color=22d3ee&text_color=cbd5e1&ring_color=f97316" />
+<!-- <img height="160" src="https://github-readme-stats.vercel.app/api?username=AmanAgarwal041&show_icons=true&hide_border=true&bg_color=020209&title_color=f97316&icon_color=22d3ee&text_color=cbd5e1&ring_color=f97316" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanAgarwal041&layout=compact&hide_border=true&bg_color=020209&title_color=f97316&text_color=cbd5e1&langs_count=6" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanAgarwal041&layout=compact&hide_border=true&bg_color=020209&title_color=f97316&text_color=cbd5e1&langs_count=6" /> -->
 
 <br/><br/>
 
