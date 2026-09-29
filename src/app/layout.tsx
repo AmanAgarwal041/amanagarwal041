@@ -20,7 +20,7 @@ const dmSans = DM_Sans({
 const title = "Aman Agarwal — Principal Software Engineer & Co-founder";
 const description =
   "Principal Software Engineer at Transilience AI building AI-powered security platforms. Co-founder of OpenLIT — open-source LLM observability with 2.4k+ GitHub stars.";
-const url = "https://amanagarwal.dev";
+const url = "https://amanagarwal.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
