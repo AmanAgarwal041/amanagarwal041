@@ -3,152 +3,184 @@
 @tailwind utilities;
 
 :root {
-  --canvas: #020209;
-  --surface: #0d0d1a;
-  --border: rgba(255, 255, 255, 0.06);
+  --ink: #0b1020;
+  --ink-2: #141b31;
+  --paper: #f3efe6;
+  --accent: #4ea8ff;
+  --sun: #ffcd03;
+  --tide: #1f74d6;
+  --pastel: #ffd9c4;
+  color-scheme: dark;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
 
+section[id], [id="content"] { scroll-margin-top: 84px; }
+
 body {
-  background-color: var(--canvas);
-  color: #f8fafc;
+  background: var(--tide);
+  color: var(--paper);
   font-family: var(--font-sans), system-ui, sans-serif;
   overflow-x: hidden;
-  cursor: none;
+  text-rendering: optimizeLegibility;
 }
 
-@media (pointer: coarse), (hover: none) {
-  body { cursor: auto; }
-  .cur-orb, .cur-dot { display: none !important; }
+::selection {
+  background: var(--pastel);
+  color: var(--ink);
 }
 
-/* ─── Scrollbar ──────────────────────────────────────── */
-::-webkit-scrollbar { width: 3px; }
-::-webkit-scrollbar-track { background: var(--canvas); }
-::-webkit-scrollbar-thumb { background: rgba(249, 115, 22, 0.5); border-radius: 2px; }
+:focus-visible {
+  outline: 2px solid var(--sun);
+  outline-offset: 3px;
+}
 
-/* ─── Cursor ─────────────────────────────────────────── */
-.cur-dot {
+[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--tide); }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.35); border-radius: 99px; }
+
+.grain {
   position: fixed;
-  top: 0; left: 0;
-  width: 5px; height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
+  inset: 0;
   pointer-events: none;
-  z-index: 10000;
-  will-change: transform;
+  z-index: 40;
+  opacity: 0.04;
+  background-image: url("/noise.png");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
 }
 
-.cur-orb {
+.progress {
   position: fixed;
-  top: 0; left: 0;
-  width: 48px; height: 48px;
-  background: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  z-index: 9999;
-  will-change: transform;
-  transition: width 0.45s cubic-bezier(0.23, 1, 0.32, 1),
-              height 0.45s cubic-bezier(0.23, 1, 0.32, 1);
-}
-.cur-orb.hovered { width: 80px; height: 80px; }
-.cur-orb.clicking { width: 32px; height: 32px; }
-
-/* ─── Dot Grid ───────────────────────────────────────── */
-.dot-grid {
-  background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
-  background-size: 28px 28px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--sun);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  z-index: 70;
 }
 
-/* ─── Gradient Text ──────────────────────────────────── */
-.gradient-text {
-  background: linear-gradient(120deg, #f97316 0%, #fb923c 40%, #22d3ee 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+:root {
+  --cursor-default: url("/cursors/arrow.svg") 4 3, auto;
+  --cursor-pointer: url("/cursors/pointer.svg") 4 3, pointer;
 }
 
-/* ─── Glass ──────────────────────────────────────────── */
-.glass {
-  background: rgba(255,255,255,0.025);
-  border: 1px solid rgba(255,255,255,0.07);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+@media (pointer: fine) {
+  html,
+  body {
+    cursor: var(--cursor-default);
+  }
+  a,
+  button,
+  summary,
+  label[for],
+  [role="button"],
+  select {
+    cursor: var(--cursor-pointer);
+  }
+  input,
+  textarea {
+    cursor: text;
+  }
 }
 
-/* ─── Aurora ─────────────────────────────────────────── */
-.aurora {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(120px);
-  pointer-events: none;
-}
-.aurora-purple {
-  width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(249,115,22,0.3) 0%, transparent 70%);
-  top: -200px; left: -200px;
-  animation: af 28s ease-in-out infinite;
-}
-.aurora-cyan {
-  width: 560px; height: 560px;
-  background: radial-gradient(circle, rgba(34,211,238,0.18) 0%, transparent 70%);
-  bottom: -120px; right: -120px;
-  animation: af 22s ease-in-out infinite reverse;
-}
-.aurora-green {
-  width: 460px; height: 460px;
-  background: radial-gradient(circle, rgba(52,211,153,0.13) 0%, transparent 70%);
-  top: 38%; left: 55%;
-  animation: af 30s ease-in-out infinite;
-  animation-delay: -12s;
-}
-@keyframes af {
-  0%,100% { transform: translate(0,0) scale(1); }
-  25%      { transform: translate(50px,-60px) scale(1.08); }
-  50%      { transform: translate(-40px,50px) scale(0.92); }
-  75%      { transform: translate(60px,40px) scale(1.06); }
-}
-
-/* ─── Section Label ──────────────────────────────────── */
-.section-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #f97316;
-}
-.section-label::before {
-  content: "";
+.world canvas {
   display: block;
-  width: 22px; height: 1px;
-  background: #f97316;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+  outline: none;
 }
 
-/* ─── Ping slow ──────────────────────────────────────── */
-@keyframes ping-slow {
-  0%        { transform: scale(1); opacity: 0.8; }
-  70%,100%  { transform: scale(2.2); opacity: 0; }
+.world-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform, opacity;
+  transition: opacity 0.25s ease;
 }
-.animate-ping-slow { animation: ping-slow 2.2s ease-out infinite; }
 
-/* ─── Marquee ────────────────────────────────────────── */
-@keyframes mq  { from { transform: translateX(0); }    to { transform: translateX(-50%); } }
-@keyframes mqr { from { transform: translateX(-50%); } to { transform: translateX(0); } }
-.animate-mq  { animation: mq  32s linear infinite; display:flex; width:max-content; }
-.animate-mqr { animation: mqr 28s linear infinite; display:flex; width:max-content; }
-.animate-mq3 { animation: mq  24s linear infinite; display:flex; width:max-content; }
+.glass {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.04) 60%),
+    rgba(12, 40, 104, 0.42);
+  backdrop-filter: blur(18px) saturate(170%);
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-shadow:
+    0 10px 30px rgba(8, 20, 56, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
 
-/* ─── 3D scene mask ──────────────────────────────────── */
-.scene-mask {
-  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, white 30%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, white 30%, transparent 80%);
+.glass-dark {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    rgba(18, 82, 170, 0.55);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+
+.kbd {
+  display: inline-flex;
+  min-width: 1.6em;
+  height: 1.6em;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.35em;
+  border-radius: 6px;
+  border: 1px solid rgba(243, 239, 230, 0.22);
+  border-bottom-width: 2px;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--paper);
+}
+
+.glow-card {
+  position: relative;
+  isolation: isolate;
+}
+
+.glow-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(380px circle at var(--x, 50%) var(--y, 0%), rgba(255, 255, 255, 0.18), transparent 42%);
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glow-card:hover::before { opacity: 1; }
+
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 1px;
+  transition: background-size 0.45s cubic-bezier(0.22, 1, 0.36, 1), color 0.3s ease;
+}
+
+.link-underline:hover { background-size: 100% 1px; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+@media print {
+  .no-print, canvas, .grain, .progress { display: none !important; }
+  body, main, section { background: white !important; color: black !important; }
+  a { color: black !important; }
 }

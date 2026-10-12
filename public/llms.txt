@@ -1,0 +1,44 @@
+# Aman Agarwal
+
+> Aman Agarwal is a principal full stack engineer in Noida, India, with 11 years of experience. He builds AI security software at Transilience AI, co-founded OpenLIT (an open-source, OpenTelemetry-native platform for AI observability and reliability), and created Autobiography of AI.
+
+Updated: 2026-10-12
+
+## Key pages
+
+- [Home](https://amanagarwal.xyz/): About, featured work, experience, writing, and FAQ.
+- [Resume](https://amanagarwal.xyz/resume/): Full work history, skills, and education.
+- [Resume PDF](https://amanagarwal.xyz/aman-agarwal-resume.pdf): Downloadable resume.
+
+## Projects
+
+- [OpenLIT](https://openlit.io/): Open-source, OpenTelemetry-native AI observability and reliability. Traces LLM and agent calls, monitors GPUs, runs evaluations and guardrails, and includes prompt management, a secrets vault, and an LLM playground. Aman co-founded it in April 2024 and maintains it. Source: [GitHub](https://github.com/openlit/openlit). Docs: [docs.openlit.io](https://docs.openlit.io/). 2.7k+ GitHub stars, 360+ forks, 100+ contributors, 14M+ traces ingested by the SDK.
+- [Autobiography of AI](https://autobiographyofai.amanagarwal.xyz/): A first-person memoir of artificial intelligence in ten chapters, from the 1956 Dartmouth workshop to the present. Aman created and edited it. Chapter 1 is free; chapters 2–10 open after Google sign-in.
+- [CLDPM](https://github.com/transilienceai/cldpm): A Claude project manager for mono repos. Shares Claude Code skills, agents, hooks, and rules across projects through config references and Git-ignored symlinks, with component dependencies and remote sparse-checkout downloads. Python and TypeScript SDKs, MIT license, on [PyPI](https://pypi.org/project/cldpm/) and npm. [Docs](https://transilienceai.github.io/cldpm/).
+- Travel Bud: A conversational AI travel planner. It asks a few questions with tap-to-answer chips, runs destination, food, activities, and logistics research agents in parallel through Claude Code, and returns a structured day-by-day itinerary with costs, tips, a budget, and a packing list, exportable as PDF. [Sample itinerary PDF](https://amanagarwal.xyz/travelbud-sample-itinerary.pdf): Phuket & Koh Yao Noi, 4 days, family of three.
+
+## Experience
+
+- Principal Full Stack Engineer, Transilience AI (May 2025–present). Python, Modal, and Next.js for an AI security platform. CI/CD, automated tests, and shared AI skills, agents, and hooks.
+- Co-founder and Maintainer, OpenLIT (April 2024–present). Architected the product on Next.js, ClickHouse, SQLite, Tailwind, and shadcn.
+- Senior Frontend Engineer, Appsmith (Oct 2021–May 2025). Paragon integrations, client-side GraphQL connectors, shared AST parsing between TypeScript and Java.
+- Staff, Senior, and Software Engineer, Gradeup, now Byju's Exam Prep (Oct 2016–Oct 2021). Led 7–8 engineers. Live teaching whiteboard on WebRTC, Goprep, room booking, PageSpeed work.
+- Software Engineer, Limetray (May–Oct 2016) and Newgen Software (Jul 2015–May 2016).
+
+## Skills
+
+React, Next.js, TypeScript, JavaScript, Node.js, GraphQL, Python, ClickHouse, PostgreSQL, Tailwind, OpenTelemetry, CI/CD, SEO and web performance.
+
+## Education
+
+B.Tech, Computer Science and Engineering, JSS Academy of Technical Education, Noida (2011–2015).
+
+## Contact
+
+- Email: agarwal.aman041@gmail.com
+- Calendar: https://cal.com/aman.openlit/30min
+- GitHub: https://github.com/AmanAgarwal041
+- LinkedIn: https://www.linkedin.com/in/amanagarwal041/
+- X: https://x.com/_typeofnull
+- npm: https://www.npmjs.com/~typeofnull
+- Medium: https://medium.com/@amanagarwal_99464
