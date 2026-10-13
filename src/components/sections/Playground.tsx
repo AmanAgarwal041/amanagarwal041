@@ -543,28 +543,34 @@ function Fallback({
           ? "Showing the lighter version to save your battery."
           : "You're in simple view.";
   return (
-    <div className="relative min-h-[100svh] overflow-hidden bg-tide pt-28">
+    <div
+      className="relative min-h-[100svh] overflow-hidden pt-28 text-ink"
+      style={{ background: "linear-gradient(180deg, #2f8ff0 0px, #bfe6ff 150px, #f3efe6 420px)" }}
+    >
       <div
         aria-hidden
-        className="absolute inset-0 opacity-[0.07]"
+        className="absolute inset-x-0 bottom-0 top-[300px] opacity-[0.5]"
         style={{
-          backgroundImage:
-            "linear-gradient(rgba(243,239,230,1) 1px, transparent 1px), linear-gradient(90deg, rgba(243,239,230,1) 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
+          backgroundImage: "radial-gradient(circle, rgba(11,16,32,0.07) 5px, transparent 6px)",
+          backgroundSize: "28px 28px",
         }}
       />
       <div className="relative mx-auto grid max-w-6xl gap-12 px-5 pb-20 md:px-8 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <h1 className="font-display text-5xl font-extrabold leading-[0.95] tracking-tight md:text-7xl">
             <span className="sr-only">Aman Agarwal. </span>
-            Hey, I&apos;m <span className="text-sun">Aman</span>.
+            Hey, I&apos;m <span className="text-brick-blue">Aman</span>.
           </h1>
-          <p className="mt-5 max-w-[28ch] font-display text-2xl font-medium leading-snug md:text-3xl">{intro.headline}</p>
-          <p className="mt-5 max-w-[46ch] text-lg leading-relaxed text-mist">{intro.supporting}</p>
+          <p className="mt-5 max-w-[28ch] font-display text-2xl font-medium leading-snug text-ink/85 md:text-3xl">{intro.headline}</p>
+          <p className="mt-5 max-w-[46ch] text-lg leading-relaxed text-ink/65">{intro.supporting}</p>
           <div className="mt-8 flex flex-wrap items-center gap-4 text-sm">
-            <span className="text-mist">{note}</span>
+            <span className="text-ink/60">{note}</span>
             {reason !== "unsupported" && (
-              <button type="button" onClick={onTry3d} className="rounded-full border border-paper/20 px-4 py-2 hover:border-sun hover:text-sun">
+              <button
+                type="button"
+                onClick={onTry3d}
+                className="rounded-full bg-pastel px-4 py-2 font-medium text-ink shadow-sm transition-colors hover:bg-white"
+              >
                 Explore the 3D island
               </button>
             )}
@@ -589,16 +595,20 @@ function Fallback({
               <button
                 type="button"
                 onClick={() => onOpen(station.id)}
-                className="group w-full rounded-2xl border border-paper/10 bg-tide-2 p-5 text-left transition-colors hover:border-sun"
+                className="group relative w-full overflow-hidden rounded-2xl border border-ink/10 bg-white p-5 pt-6 text-left shadow-[0_6px_20px_rgba(11,16,32,0.06)] transition hover:-translate-y-0.5 hover:shadow-[0_12px_28px_rgba(11,16,32,0.12)]"
               >
-                <span className="text-[11px] uppercase tracking-[0.2em] text-accent">{station.place}</span>
+                <span aria-hidden className="absolute inset-x-0 top-0 h-1.5" style={{ background: station.color }} />
+                <span className="flex items-center gap-2 text-[11px] uppercase tracking-[0.2em] text-ink/55">
+                  <span aria-hidden className="h-2 w-2 rounded-sm" style={{ background: station.color }} />
+                  {station.place}
+                </span>
                 <span className="mt-1 flex items-center justify-between font-display text-2xl font-bold">
                   {station.label}
-                  <span aria-hidden className="text-sun transition-transform group-hover:translate-x-1">
+                  <span aria-hidden className="text-ink/40 transition-transform group-hover:translate-x-1 group-hover:text-ink">
                     →
                   </span>
                 </span>
-                <span className="mt-1 block text-sm text-mist">{station.hint}</span>
+                <span className="mt-1 block text-sm text-ink/65">{station.hint}</span>
               </button>
             </li>
           ))}
